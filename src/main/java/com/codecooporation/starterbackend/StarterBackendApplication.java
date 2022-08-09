@@ -13,7 +13,7 @@ public class StarterBackendApplication {
 	@CrossOrigin(origins = "http://starter-bucket-test.s3-website.eu-central-1.amazonaws.com")
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "say welcome to automation";
+		return "say welcome to automation handover";
 	}
 
 	@CrossOrigin(origins = "http://starter-bucket-test.s3-website.eu-central-1.amazonaws.com")
