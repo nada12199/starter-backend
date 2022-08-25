@@ -23,5 +23,5 @@ WORKDIR  /usr/local/starter-backend/
 
 VOLUME /usr/local/starter-backend/log
 
-EXPOSE 8080
+EXPOSE 80
 CMD ["start.sh"]
